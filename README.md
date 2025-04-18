@@ -124,7 +124,7 @@ S poměry úzce souvisí zlomky a navazuje na ně přímá a nepřímá úměrno
         <div class="right-sidebar sidebar">
             <h2>Odkazy vpravo</h2>
             <ul>
-                <li><a href="https://www.example.com/alpha">Alfa</a></li>
+                <li><a href="https://https://youtu.be/fhe7WsRPDa0?si=fO_KskV6OsiyuXOb">Alfa</a></li>
                 <li><a href="https://www.example.com/beta">Beta</a></li>
                 <li><a href="https://www.example.com/gamma">Gama</a></li>
                 <li><a href="https://www.example.com/delta">Delta</a></li>
