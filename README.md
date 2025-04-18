@@ -75,7 +75,7 @@
 </head>
 <body>
     <header>
-        <h1>Nadpis Stránky</h1>
+        <h1>Učení je mučení</h1>
     </header>
 
     <div class="main-content two-sidebars">
