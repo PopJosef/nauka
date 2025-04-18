@@ -80,22 +80,24 @@
 
     <div class="main-content two-sidebars">
         <div class="left-sidebar sidebar">
-            <h2>Odkazy vlevo</h2>
+            <h2>Matematika</h2>
             <ul>
-                <li><a href="https://www.example.com/jarda">Jarda</a></li>
-                <li><a href="https://www.example.com/petr">Petr</a></li>
-                <li><a href="https://www.example.com/karel">Karel</a></li>
-                <li><a href="https://www.example.com/eva">Eva</a></li>
-                <li><a href="https://www.example.com/jana">Jana</a></li>
-                <li><a href="https://www.example.com/michaela">Michaela</a></li>
+                <li><a href="https://https://www.youtube.com/watch?v=icOOkR3cSQ4">Daniel</a></li>
+                <li><a href="https://https://www.youtube.com/shorts/oLh0qNzXkMw">Zeman</a></li>
+                <li><a href="https://www.example.com/karel">čeština</a></li>
+                <li><a href="https://www.example.com/eva">fyzika</a></li>
+                <li><a href="https://www.example.com/jana">přírodověda</a></li>
+                <li><a href="https://www.example.com/michaela">zeměpis</a></li>
             </ul>
         </div>
 
         <div class="article-section with-two-sidebars">
-            <h2>Hlavní obsah - Články</h2>
+            <h2>Tothle je pro tebe myšáku - Články</h2>
             <article>
                 <h3>Článek 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Poměr je způsob, jak porovnávat údaje lépe než jen "větší, menší, rovno". V životě se s poměrem setkáte při zápisu výsledků sportovních zápasů, v návodu, jak ředit barvy, v receptech...
+
+S poměry úzce souvisí zlomky a navazuje na ně přímá a nepřímá úměrnost, procenta, podobnost - všechno to jsou oblasti matematiky, které určitě v životě použijete.</p>
             </article>
             <article>
                 <h3>Článek 2</h3>
