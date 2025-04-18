@@ -82,7 +82,7 @@
         <div class="left-sidebar sidebar">
             <h2>Matematika</h2>
             <ul>
-                <li><a href="https://www.youtube.com/watch?v=fhe7WsRPDa0&feature=shared>Daniel</a></li>
+                <li><a href="https://youtube.com/watch?v=fhe7WsRPDa0&feature=shared>Daniel</a></li>
                 <li><a href="https://https://www.youtube.com/shorts/oLh0qNzXkMw">Zeman</a></li>
                 <li><a href="https://www.example.com/karel">čeština</a></li>
                 <li><a href="https://www.example.com/eva">fyzika</a></li>
