@@ -109,15 +109,15 @@ S poměry úzce souvisí zlomky a navazuje na ně přímá a nepřímá úměrno
             </article>
             <article>
                 <h3>Článek 4</h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <p>Přírodopis aktuální téma.</p>
             </article>
             <article>
                 <h3>Článek 5</h3>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                <p>Němčina</p>
             </article>
             <article>
                 <h3>Článek 6</h3>
-                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                <p>Ještě nevím.</p>
             </article>
         </div>
 
