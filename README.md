@@ -131,12 +131,10 @@
         <div class="article-section with-two-sidebars">
             <h2>Tothle je pro tebe myšáku - Články</h2>
             <article class="dropdown-article">
-                <h3 class="dropdown-trigger">Matematika</h3>
+                <h3 class="dropdown-trigger">Článek 1</h3>
                 <div class="dropdown-content">
                     <ul>
-                        <li><a href="#">Poměr</a></li>
-                        <li><a href="#">Zlomky</a></li>
-                        <li><a href="#">Míry a váhy</a></li>
+                        <li><a href="clanek-a.html">Související článek A</a></li>
                     </ul>
                 </div>
                 <p>Poměr je způsob, jak porovnávat údaje lépe než jen "větší, menší, rovno". V životě se s poměrem setkáte při zápisu výsledků sportovních zápasů, v návodu, jak ředit barvy, v receptech...</p>
