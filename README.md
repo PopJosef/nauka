@@ -31,6 +31,7 @@
             flex-grow: 1;
             padding-right: 20px;
             overflow-y: auto; /* Zajistí srolování hlavní části */
+            position: relative; /* Pro umístění dropdown menu */
         }
 
         .sidebar {
@@ -73,33 +74,39 @@
             padding-right: 20px;
         }
 
-        /* Styly pro kvíz */
-        .quiz-container {
-            margin-top: 20px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        /* Styly pro dropdown menu */
+        .dropdown-content {
+            display: none; /* Skryje nabídku ve výchozím stavu */
+            position: absolute; /* Pro umístění nabídky */
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1; /* Zajistí, že se nabídka zobrazí nad ostatním obsahem */
         }
-        .quiz-container .question {
-            font-weight: bold;
-            margin-bottom: 10px;
+
+        .dropdown-article:hover .dropdown-content {
+            display: block; /* Zobrazí nabídku při najetí na článek */
         }
-        .quiz-container .options label {
+
+        .dropdown-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .dropdown-content li a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
             display: block;
-            margin-bottom: 5px;
         }
-        .quiz-container button {
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
+
+        .dropdown-content li a:hover {
+            background-color: #ddd;
         }
-        .quiz-container .result {
-            margin-top: 20px;
-            font-weight: bold;
+
+        .dropdown-trigger {
+            cursor: pointer; /* Změní kurzor myši na ukazatel */
         }
     </style>
 </head>
@@ -122,37 +129,33 @@
         </div>
 
         <div class="article-section with-two-sidebars">
-            <h2>Tohle je pro tebe myšáku učit se, učit se! - </h2>
-            <article>
-                <h3>Matematika</h3>
+            <h2>Tothle je pro tebe myšáku - Články</h2>
+            <article class="dropdown-article">
+                <h3 class="dropdown-trigger">Článek 1</h3>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Související článek A</a></li>
+                        <li><a href="#">Související článek B</a></li>
+                        <li><a href="#">Související článek C</a></li>
+                    </ul>
+                </div>
                 <p>Poměr je způsob, jak porovnávat údaje lépe než jen "větší, menší, rovno". V životě se s poměrem setkáte při zápisu výsledků sportovních zápasů, v návodu, jak ředit barvy, v receptech...</p>
             </article>
             <article>
-                <h3>Čeština</h3>
+                <h3>Článek 2</h3>
                 <p>Tady bude aktuální učivo ze sedmé třídy.</p>
             </article>
-
-            <article class="quiz-container">
-                <h3>Jednoduchý kvíz</h3>
-                <div id="question-container"></div>
-                <div id="options-container"></div>
-                <button id="submit-btn">Odeslat odpověď</button>
-                <div id="result-container" class="result" style="display: none;"></div>
-            </article>
-
             <article>
-                <h3>Fyzika</h3>
-                <p>Gravitace je přírodní jev, který se projevuje jako vzájemné přitažlivé působení (interakci) všech objektů, které mají hmotnost nebo energii..</p>
+                <h3>Článek 3</h3>
+                <p>Tady budeš mít aktuální úkoly.</p>
             </article>
             <article>
-                <h3>Zeměpis</h3>
-                <p>Země je v některých evropských státech označení pro existující či historické vyšší územní jednotky zpravidla většího rozsahu a vybavené velkou mírou samosprávy nebo přímo autonomií (vlastním parlamentem, vládou, legislativou apod.). Stát se pak zpravidla z takových zemí skládá i administrativně.
-
-V řadě států se pro obdobné správní celky užívají jiné pojmy stejného významu, např. ve Švýcarsku kantony, ve Španělsku autonomní společenství, někde provincie (v Kanadě, v Jihoafrické republice), někde svazový/spolkový stát nebo stát unie/federace (často uváděný jen jako „stát“), např. v USA, Indii, Brazílii, Malajsii nebo Austrálii. V Ruské federaci se celky na této úrovni nazývají republiky (nejsou však skladebné – nepokrývají celé území státu), na republiky se členila i Jugoslávie..</p>
+                <h3>Článek 4</h3>
+                <p>Přírodopis aktuální téma.</p>
             </article>
             <article>
-                <h3>Dějepis</h3>
-                <p>Karel IV., narozen jako Václav, byl jedenáctý český král vládnoucí jako Karel I. od srpna 1346 až do své smrti v listopadu 1378. Karel IV. byl římsko-německý král od července 1346 a od roku 1355 císař římský. </p>
+                <h3>Článek 5</h3>
+                <p>Němčina</p>
             </article>
             <article>
                 <h3>Článek 6</h3>
@@ -176,80 +179,5 @@ V řadě států se pro obdobné správní celky užívají jiné pojmy stejnéh
     <footer>
         <p>© 2023 Moje stránka</p>
     </footer>
-
-    <script>
-        const questions = [
-            {
-                question: "Kolik je 2 + 2?",
-                options: ["3", "4", "5", "6"],
-                correctAnswer: "4"
-            },
-            {
-                question: "Jaká je hlavní město České republiky?",
-                options: ["Brno", "Ostrava", "Praha", "Plzeň"],
-                correctAnswer: "Praha"
-            },
-            {
-                question: "Kdo napsal knihu Malý princ?",
-                options: ["Antoine de Saint-Exupéry", "J.R.R. Tolkien", "Lewis Carroll", "Hans Christian Andersen"],
-                correctAnswer: "Antoine de Saint-Exupéry"
-            }
-        ];
-
-        let currentQuestionIndex = 0;
-        let score = 0;
-
-        const questionContainer = document.getElementById("question-container");
-        const optionsContainer = document.getElementById("options-container");
-        const submitBtn = document.getElementById("submit-btn");
-        const resultContainer = document.getElementById("result-container");
-
-        function displayQuestion() {
-            const currentQuestion = questions[currentQuestionIndex];
-            questionContainer.textContent = currentQuestion.question;
-            optionsContainer.innerHTML = ""; // Vyčistí předchozí možnosti
-
-            currentQuestion.options.forEach((option, index) => {
-                const label = document.createElement("label");
-                const radioBtn = document.createElement("input");
-                radioBtn.type = "radio";
-                radioBtn.name = "answer";
-                radioBtn.value = option;
-                label.appendChild(radioBtn);
-                label.appendChild(document.createTextNode(option));
-                optionsContainer.appendChild(label);
-            });
-        }
-
-        function checkAnswer() {
-            const selectedOption = document.querySelector('input[name="answer"]:checked');
-            if (selectedOption) {
-                if (selectedOption.value === questions[currentQuestionIndex].correctAnswer) {
-                    score++;
-                }
-                currentQuestionIndex++;
-
-                if (currentQuestionIndex < questions.length) {
-                    displayQuestion();
-                } else {
-                    showResult();
-                }
-            } else {
-                alert("Prosím, vyberte odpověď!");
-            }
-        }
-
-        function showResult() {
-            questionContainer.style.display = "none";
-            optionsContainer.style.display = "none";
-            submitBtn.style.display = "none";
-            resultContainer.textContent = `Tvůj výsledek: ${score} z ${questions.length} správně!`;
-            resultContainer.style.display = "block";
-        }
-
-        submitBtn.addEventListener("click", checkAnswer);
-
-        displayQuestion(); // Zobrazí první otázku při načtení stránky
-    </script>
 </body>
 </html>
