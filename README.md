@@ -122,13 +122,13 @@
         </div>
 
         <div class="article-section with-two-sidebars">
-            <h2>Tothle je pro tebe myšáku - Články</h2>
+            <h2>Tohle je pro tebe myšáku učit se, učit se! - </h2>
             <article>
-                <h3>Článek 1</h3>
+                <h3>Matematika</h3>
                 <p>Poměr je způsob, jak porovnávat údaje lépe než jen "větší, menší, rovno". V životě se s poměrem setkáte při zápisu výsledků sportovních zápasů, v návodu, jak ředit barvy, v receptech...</p>
             </article>
             <article>
-                <h3>Článek 2</h3>
+                <h3>Čeština</h3>
                 <p>Tady bude aktuální učivo ze sedmé třídy.</p>
             </article>
 
@@ -141,16 +141,18 @@
             </article>
 
             <article>
-                <h3>Článek 3</h3>
-                <p>Tady budeš mít aktuální úkoly.</p>
+                <h3>Fyzika</h3>
+                <p>Gravitace je přírodní jev, který se projevuje jako vzájemné přitažlivé působení (interakci) všech objektů, které mají hmotnost nebo energii..</p>
             </article>
             <article>
-                <h3>Článek 4</h3>
-                <p>Přírodopis aktuální téma.</p>
+                <h3>Zeměpis</h3>
+                <p>Země je v některých evropských státech označení pro existující či historické vyšší územní jednotky zpravidla většího rozsahu a vybavené velkou mírou samosprávy nebo přímo autonomií (vlastním parlamentem, vládou, legislativou apod.). Stát se pak zpravidla z takových zemí skládá i administrativně.
+
+V řadě států se pro obdobné správní celky užívají jiné pojmy stejného významu, např. ve Švýcarsku kantony, ve Španělsku autonomní společenství, někde provincie (v Kanadě, v Jihoafrické republice), někde svazový/spolkový stát nebo stát unie/federace (často uváděný jen jako „stát“), např. v USA, Indii, Brazílii, Malajsii nebo Austrálii. V Ruské federaci se celky na této úrovni nazývají republiky (nejsou však skladebné – nepokrývají celé území státu), na republiky se členila i Jugoslávie..</p>
             </article>
             <article>
-                <h3>Článek 5</h3>
-                <p>Němčina</p>
+                <h3>Dějepis</h3>
+                <p>Karel IV., narozen jako Václav, byl jedenáctý český král vládnoucí jako Karel I. od srpna 1346 až do své smrti v listopadu 1378. Karel IV. byl římsko-německý král od července 1346 a od roku 1355 císař římský. </p>
             </article>
             <article>
                 <h3>Článek 6</h3>
