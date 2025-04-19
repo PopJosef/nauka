@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Související článek A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <h2>Související článek A</h2>
+    <p>Tohle je obsah souvisejícího článku A. Může obsahovat různé odstavce, obrázky a další HTML elementy související s tématem prvního článku na hlavní stránce.</p>
+    <p>Pokračování obsahu článku A...</p>
+</body>
+</html>
