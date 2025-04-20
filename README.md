@@ -37,7 +37,7 @@
         .sidebar {
             width: 200px;
             padding: 20px;
-            background-color: #e0e0e0;
+            background-color: #E6FFE6;
         }
 
         .sidebar ul {
